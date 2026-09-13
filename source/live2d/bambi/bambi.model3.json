@@ -1,0 +1,74 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "bambi.moc3",
+    "Textures": [
+      "texture_00.png"
+    ],
+    "Motions": {
+      "Emotion": [
+        {
+          "File": "motions/pat_emotion_1.motion3.json"
+        },
+        {
+          "File": "motions/pat_emotion_2.motion3.json"
+        }
+      ],
+      "Idle": [
+        {
+          "File": "motions/1.bambi_idle.motion3.json"
+        }
+      ],
+      "Motion": [
+        {
+          "File": "motions/look_01_M.motion3.json"
+        }
+      ],
+      "Note": [
+        {
+          "File": "motions/2.bambi_note.success.motion3.json"
+        },
+        {
+          "File": "motions/3.bambi.note.fail.motion3.json"
+        }
+      ],
+      "SectionClear": [
+        {
+          "File": "motions/4.bambi_section_clear.motion3.json"
+        }
+      ],
+      "Song": [
+        {
+          "File": "motions/5.bambi_song_clear_intro.motion3.json"
+        },
+        {
+          "File": "motions/5.bambi_song_clear_loop.motion3.json"
+        },
+        {
+          "File": "motions/6.bambi_song_fail_intro.motion3.json"
+        },
+        {
+          "File": "motions/6.bambi_song_fail_loop.motion3.json"
+        }
+      ]
+    },
+    "Physics": "physics3.json"
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}
